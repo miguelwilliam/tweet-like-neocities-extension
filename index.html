@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste tweets</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            color: white;
+            font-family: "MS UI Gothic";
+        }
+        div.container {
+            width: 500px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .tweet {
+            display: flex;
+            padding: 10px;
+        }
+
+        .profile-picture img{
+            width: 40px;
+            aspect-ratio: 1/1;
+            display: block;
+            border-radius: 50%;
+        }
+
+        .content {
+            margin-left: 10px;
+        }
+
+        .content .head {
+            display: flex;
+            gap: 10px;  
+            margin-bottom: 4px;
+        }
+
+        .content .head * {
+            height: fit-content;
+            font-size: 16px;
+        }
+
+        .content .head .name:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .text {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="tweet">
+            <div class="profile-picture"><img src="https://pbs.twimg.com/profile_images/1873898281253691393/BYfxzWFl_400x400.jpg" alt="profile-picture"></div>
+            
+            <div class="content">
+                <div class="head">
+                    <h3 class="name">musica socialmente inaceitavel jr ☭ 🇦🇲 🇵🇸</h3>
+                    <p class="at">@kno</p>
+                    <p class="date">18/02</p>
+                </div>
+                <div class="text">
+                    <p>faz muito tempo que eu não posto msc no soundcloud.. mas to pensando em postar um projeto maior de uma vez só!!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tweet">
+            <div class="profile-picture"><img src="https://pbs.twimg.com/profile_images/1873898281253691393/BYfxzWFl_400x400.jpg" alt="profile-picture"></div>
+            
+            <div class="content">
+                <div class="head">
+                    <h3 class="name">musica socialmente inaceitavel jr ☭ 🇦🇲 🇵🇸</h3>
+                    <p class="at">@kno</p>
+                    <p class="date">18/02</p>
+                </div>
+                <div class="text">
+                    <p>faz muito tempo que eu não posto msc no soundcloud.. mas to pensando em postar um projeto maior de uma vez só!!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
